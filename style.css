@@ -12,9 +12,12 @@ body {
     width: 100%;
 }
 
-#frame {
+#frame, #text {
     width: 20rem;
     height: 20rem;
+}
+
+#frame {
     background-color: black;
     transition: background-color, width;
     transition-duration: 6s;
@@ -27,3 +30,16 @@ body {
     width: 30rem;
 }
 
+#text p {
+    color: purple;
+    font-size: 1rem;
+    transition: color, font-size;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 2s, 0s;
+}
+
+#text:hover p {
+    color: orangered;
+    font-size: 10rem;
+}
