@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#frame {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition: background-color, width;
+    transition-duration: 6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+}
+
+#frame:hover {
+    background-color: grey;
+    width: 30rem;
+}
+
